@@ -18,6 +18,7 @@ var jwt = require('jwt-simple');
 var moment = require('moment');
 var mongoose = require('mongoose');
 var request = require('request');
+var sequelizer = require('sequelizer');
 
 var config = require('./config');
 
